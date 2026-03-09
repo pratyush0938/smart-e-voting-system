@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://smart-e-voting-system.onrender.com",
+  baseURL: "https://smart-e-voting-system.onrender.com/api",
 });
 
 // Attach token automatically
